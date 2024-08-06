@@ -2,9 +2,9 @@
 FROM node:14-alpine
 
 # Instal some dependencies
+COPY ./ ./
 RUN npm install 
 
-COPY ./ ./
 
 # Default command
 CMD ["npm", "start"]
