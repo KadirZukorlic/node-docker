@@ -3,7 +3,7 @@ const express = require('express')
 const app = express()
 
 app.get('/', (req, res) => {
-    res.send('Bye there!')
+    res.send('YO YO YO there!')
 })
 
 app.listen(8080, () => {
