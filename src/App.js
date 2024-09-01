@@ -22,6 +22,5 @@ function App() {
     </div>
   );
 }
-// DOCEKR USERNAME AND DOCKER_PASSWORD MISSING TO GITHUBACTIONS SECRETS ADD THAT
 
 export default App;
